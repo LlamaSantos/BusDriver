@@ -1,0 +1,15 @@
+{
+    "name" : "BusDriver",
+    "version" : "0.0.1",
+    "engine" : {
+        "node" : ">=0.8.*"
+    },
+    "dependencies" : {
+        "flatiron" : "*",
+        "union" : "*",
+        "underscore" : "*",
+        "eventemitter2" : "*",
+        "ecstatic" : "*",
+        "vows" : "*"
+    }
+}

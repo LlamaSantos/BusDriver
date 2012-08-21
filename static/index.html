@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="#">Bus Driver Demo</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="hero-unit">
+            <h1>Got Demo?</h1>
+            <p>This test app is here to illustrate coolest technology that can help in increasing a testability footprint. A bus :)</p>
+        </div>
+        <div class="row">
+            <div class="span4">
+                <h2>Drive the bus</h2>
+                <p>
+                    <a class="btn app-bus-drive" href="#">Drive</a>
+                    <a class="btn app-bus-stop" href="#">Stop</a>
+                    <button type="button" class="btn app-bus-empty" data-toggle="buttons-checkbox">Empty</button>
+
+                </p>
+            </div>
+            <div class="span4">
+                <h2>Set Driver</h2>
+                <p>
+                    <input id="driver-name" class="span3" type="text" placeholder="name">
+                </p>
+                <p>
+                    <a class="btn app-bus-driver" href="#">Set</a>
+                </p>
+            </div>
+            <div class="span4">
+                <h2>Add students</h2>
+                <p>
+                    <input id="student-count" class="span3" type="text" placeholder="number of students">
+                </p>
+                <p>
+                    <a class="btn app-bus-students" href="#">Add</a>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span12">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>Event</th>
+                            <th>Message</th>
+                            <th>Data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/eventemitter2.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/main.js"></script>
+    <script type="text/javascript" src="/app-events.js"></script>
+    <script type="text/javascript" src="/app-logic.js"></script>
+</body>
+</html>
